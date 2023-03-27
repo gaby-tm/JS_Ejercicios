@@ -15,4 +15,11 @@ line.splice(1, 0, "Renata");            //It turns out David was saving a spot f
 line.push("Elena");                     //libros.push("Farenheit 451");
 console.log(line);
 
+console.log("EXERCISE 2");
+for (let pattern = "*"; pattern <6; pattern ++) {
+    console.log (pattern);
+}
+
+
+
 // https://github.com/gaby-tm/JS_Ejercicios/tree/master/JS-04%20-%20Arrays%20and%20Loops
