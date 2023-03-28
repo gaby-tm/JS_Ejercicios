@@ -12,11 +12,17 @@ console.log(line);
 
 console.log("++++++ Part 3 ++++++");
 line.splice(1, 0, "Renata");            //It turns out David was saving a spot for his friend Renata
-line.push("Elena");                     //libros.push("Farenheit 451");
+line.push("Elena");                   
 console.log(line);
 
 console.log("EXERCISE 2");
-for (let pattern = "*"; pattern <6; pattern ++) {
+for (let a = 1; a <= 5; a++) {
+    let pattern = "";
+
+    for(let b = 1; b<= a; b++) {
+        pattern += "* ";
+    }
+
     console.log (pattern);
 }
 
